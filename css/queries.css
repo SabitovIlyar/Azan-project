@@ -1,0 +1,83 @@
+@media (max-width: 74em) {
+    .container {
+        margin: 0 3.2rem;
+    }
+}
+
+/* FOR TABLETS */
+
+@media (max-width: 60em) {
+    html {
+        font-size: 56.25%;
+    }
+    .card-box,
+    .features-list,
+    .aside-link-boxes {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 6.4rem;
+    }
+    .aside-link-boxes {
+        row-gap: 5.6rem;
+    }
+    .aside-link {
+        margin-bottom: 3.2rem;
+    }
+}
+
+@media (max-width: 49em) {
+    .card-box,
+    .features-list,
+    .aside-link-boxes {
+        grid-template-columns: 1fr;
+        padding: 0 2.4rem;
+    }
+    .features-list-item {
+        gap: 1.8rem;
+        line-height: 1.4;
+    }
+    .footer-text {
+        font-size: 2rem;
+    }
+}
+
+/* FOR PHONES */
+
+@media (max-width: 34em) {
+    .footer-box {
+        display: block;
+        text-align: center;
+    }
+    .footer-text {
+        margin-bottom: 2.4rem;
+    }
+    .all-rights {
+        text-align: center;
+    }
+}
+
+@media (max-width: 27em) {
+    .hero-main-heading {
+        font-size: 2.4rem;
+    }
+    .btn:link,
+    .btn:visited,
+    .btn:hover,
+    .btn:active {
+        padding: 8px 27px;
+        font-size: 1.2rem;
+    }
+}
+
+/* FOR GALAXY FOLD */
+@media (max-width: 27em) {
+    .header-img {
+        width: 50%;
+    }
+    .header-link:link,
+    .header-link:visited,
+    .header-link:hover,
+    .header-link:active {
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+}
