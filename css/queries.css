@@ -56,16 +56,6 @@
 }
 
 @media (max-width: 27em) {
-    .header-img {
-        width: 40%;
-    }
-    .header-link:link,
-    .header-link:visited,
-    .header-link:hover,
-    .header-link:active {
-        padding: 8px 20px;
-        font-size: 1rem;
-    }
     .hero-main-heading {
         font-size: 2.4rem;
     }
@@ -75,5 +65,14 @@
     .btn:active {
         padding: 8px 27px;
         font-size: 1.2rem;
+    }
+}
+@media (max-width: 18em) {
+    .header-link:link,
+    .header-link:visited,
+    .header-link:hover,
+    .header-link:active {
+        font-size: 1rem;
+        padding: 8px 16px;
     }
 }
