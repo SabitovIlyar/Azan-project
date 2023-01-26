@@ -56,6 +56,16 @@
 }
 
 @media (max-width: 27em) {
+    .header-img {
+        width: 40%;
+    }
+    .header-link:link,
+    .header-link:visited,
+    .header-link:hover,
+    .header-link:active {
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
     .hero-main-heading {
         font-size: 2.4rem;
     }
@@ -65,19 +75,5 @@
     .btn:active {
         padding: 8px 27px;
         font-size: 1.2rem;
-    }
-}
-
-/* FOR GALAXY FOLD */
-@media (max-width: 27em) {
-    .header-img {
-        width: 50%;
-    }
-    .header-link:link,
-    .header-link:visited,
-    .header-link:hover,
-    .header-link:active {
-        padding: 8px 20px;
-        font-size: 1rem;
     }
 }
